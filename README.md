@@ -1,2 +1,2 @@
-## askly
-# an attempt to emulate the brainly.co.id website
+# askly
+## an attempt to emulate the brainly.co.id website
