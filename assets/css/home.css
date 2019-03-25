@@ -1,3 +1,13 @@
 #tengah {
 	background-color: #D9F0FF;
 }
+
+#ajukan {
+	border-radius: 30px;
+}
+
+#btn-pertanyaan {
+	border-style: none;
+	background-color: black;
+	color: white;
+}
