@@ -1,6 +1,3 @@
-<?php
-require_once 'vendor\autoload.php';
-?>
 <!DOCTYPE html>
 <html>
 
@@ -9,10 +6,10 @@ require_once 'vendor\autoload.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?= $title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="vendor\twbs\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css">
     <link rel="stylesheet" href="assets\css\home.css">
-    <script src="vendor\components\jquery\jquery.min.js"></script>
-    <script src="vendor\twbs\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="assets\js\jquery.min.js"></script>
 </head>
 
 <body>
@@ -60,7 +57,30 @@ require_once 'vendor\autoload.php';
             </div>
         </div>
     </div>
-    <!-- bagian tengah start -->
+    <!-- bagian tengah end -->
+    <!-- slide kategori -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- end slide kategori -->
 </body>
 
 </html>
