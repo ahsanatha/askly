@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ahsanath/public_html/askly
+- /bin/cp -r * $DEPLOYPATH
