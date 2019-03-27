@@ -55,9 +55,9 @@
                         <p>Brainly adalah tempat berbagi ilmu 150 juta siswa dan pakar edukasi, belajar bersama
                             untuk menyelesaikan soal-soal yang paling rumit sekalipun</p>
                     </div>
-                    <div class="d-inline-flex bg-white p-3 " style="width:600px">
-                        <input type="text" style="width:550px" placeholder="Apa pertanyaanmu?" id="pertanyaan">
-                        <button class="ml-1 p-5" id="btn-pertanyaan"><img src="assets\imgs\search.png"
+                     <div class="d-inline-flex bg-white p-3 " style="width:600px; height: 120px; border-radius: 70px 70px 70px">
+                        <input type="text" style="width:550px; border: 0px solid; background-color: transparent;" placeholder="Apa pertanyaanmu?" id="pertanyaan">
+                        <button style="width: 50px;height: 50px;background: black;border-radius:50%; position: center;" class="ss" id="btn-pertanyaan"><img style="width:20px;" src="assets\imgs\search.png"
                                 alt="cari"></button>
                     </div>
                 </div>
