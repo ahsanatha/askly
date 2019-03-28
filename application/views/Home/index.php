@@ -57,8 +57,7 @@
                     </div>
                     <div class="d-inline-flex bg-white p-3 " style="width:600px">
                         <input type="text" style="width:550px" placeholder="Apa pertanyaanmu?" id="pertanyaan">
-                        <button class="ml-1 p-5" id="btn-pertanyaan"><img src="assets\imgs\search.png"
-                                alt="cari"></button>
+                        <button class="ml-1 p-5" id="btn-pertanyaan"><img src="assets\imgs\search.png" alt="cari"></button>
                     </div>
                 </div>
                 <div class="col-4">
