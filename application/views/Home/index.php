@@ -56,11 +56,11 @@
                             untuk menyelesaikan soal-soal yang paling rumit sekalipun</p>
                     </div>
                     <div class="d-inline-flex bg-white p-3 "
-                        style="width:600px; height: 120px; border-radius: 70px 70px 70px">
+                        style="width:600px; height: 85px; border-radius: 70px 70px 70px">
                         <input type="text" style="width:550px; border: 0px solid; background-color: transparent;"
                             placeholder="Apa pertanyaanmu?" id="pertanyaan">
                         <button style="width: 50px;height: 50px;background: black;border-radius:50%; position: center;"
-                            class="ss" id="btn-pertanyaan"><img style="width:20px;" src="assets\imgs\search.png"
+                            class="" id="btn-pertanyaan"><img style="width:20px;" src="assets\imgs\search.png"
                                 alt="cari"></button>
                     </div>
                 </div>
@@ -72,7 +72,18 @@
     </div>
     <!-- bagian tengah end -->
     <!-- slide kategori -->
-
+    <div class="d-flex" id="bawah">
+        <div class="container">
+            <div class="scrollmenu">
+                <?php foreach ($kategori as $kat) : ?>
+                <div class="kat-blok">
+                    <img src="..." alt="" style=" ">
+                    <a href="#"><?= $kat ?></a>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
     <!-- end slide kategori -->
 </body>
 

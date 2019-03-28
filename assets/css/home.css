@@ -11,3 +11,32 @@
 	background-color: black;
 	color: white;
 }
+
+#bawah {
+	background-color: #F5F8FA;
+}
+
+div.scrollmenu {
+	overflow: auto;
+	white-space: nowrap;
+
+}
+
+div.kat-blok {
+	display: inline-block;
+	margin: 15px 0px;
+}
+
+div.scollmenu img {
+	margin: 0px 2px;
+	width: 5px;
+	height: 5px
+}
+
+div.scrollmenu a {
+	color: black;
+	text-align: right;
+	padding: 0px 5px;
+	text-decoration: none;
+	margin: 0px 40px;
+}
