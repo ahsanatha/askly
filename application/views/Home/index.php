@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item active mr-3">
-                        <a class="nav-link text-dark font-weight-bold" href="#">MASUK</a>
+                        <a class="nav-link text-dark font-weight-bold" href="<?= base_url() ?>login">MASUK</a>
                     </li>
                     <li class="nav-item mr-3">
                         <a class="nav-link text-dark font-weight-bold" href="#">DAFTAR</a>
