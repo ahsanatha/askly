@@ -27,14 +27,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item active mr-3">
+                    <li class="nav-item active ml-5">
                         <a class="nav-link text-dark font-weight-bold" href="<?= base_url() ?>login">MASUK</a>
                     </li>
-                    <li class="nav-item mr-3">
+                    <li class="nav-item ml-5">
                         <a class="nav-link text-dark font-weight-bold" href="#">DAFTAR</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0 mr-5">
+                <form class="form-inline my-2 my-lg-0 ml-5">
                     <a href="" class="nav-link">
                         <button class="btn btn-outline-dark my-2 my-sm-0 font-weight-bold " type="submit" id="ajukan">
                             AJUKAN PERTANYAAN
@@ -55,7 +55,7 @@
                         <p>Brainly adalah tempat berbagi ilmu 150 juta siswa dan pakar edukasi, belajar bersama
                             untuk menyelesaikan soal-soal yang paling rumit sekalipun</p>
                     </div>
-                    <div class="d-inline-flex bg-white p-3 "
+                    <div class="d-inline-flex bg-white p-3"
                         style="width:600px; height: 85px; border-radius: 70px 70px 70px">
                         <input type="text" style="width:550px; border: 0px solid; background-color: transparent;"
                             placeholder="Apa pertanyaanmu?" id="pertanyaan">
