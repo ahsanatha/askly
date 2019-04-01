@@ -41,7 +41,7 @@
                     <div class="sg-content-box sg-content-box--full">
                         <div class="sg-content-box sg-content-box--spaced-bottom-large">
                             <div class="sg-content-box sg-content-box--spaced-bottom-small">
-                                <h1 class="sg-headline sg-headline--small sg-headline--to-left">Buat akun di Brainly!</h1>
+                                <h1 class="sg-headline sg-headline--small sg-headline--to-left">Buat akun di Askly!</h1>
                             </div>
                             <div class="sg-text sg-text--small sg-text--gray sg-text--to-left">Agan telah memiliki akun? <span data-test="form-login-link" class="sg-text sg-text--small sg-text--link sg-text--bold sg-text--blue-dark">Masuk di sini</span>
                             </div>
