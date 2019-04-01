@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets\css\home.css">
     <script src="assets\js\bootstrap.min.js"></script>
     <script src="assets\js\jquery.min.js"></script>
+    <link href="assets\css\sentuhan.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -85,6 +87,7 @@
         </div>
     </div>
     <!-- end slide kategori -->
+    
 </body>
 
 </html>
