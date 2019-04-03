@@ -13,6 +13,8 @@
     <script src="assets\js\home.js"></script>
     <script src="assets\js\bootstrap.min.js"></script>
     <script src="assets\js\jquery.min.js"></script>
+    <link href="assets\css\sentuhan.css" rel="stylesheet">
+
 </head>
 
 <body>
