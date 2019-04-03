@@ -1,3 +1,7 @@
+body {
+	font-family: 'ProximaNova', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 #tengah {
 	background-color: #D9F0FF;
 }
@@ -16,15 +20,16 @@
 	background-color: #F5F8FA;
 }
 
-div.scrollmenu {
-	overflow: auto;
+.scrollmenu {
+	overflow: scroll;
 	white-space: nowrap;
 
 }
 
-div.kat-blok {
+.kat-blok {
 	display: inline-block;
 	margin: 15px 0px;
+	white-space: nowrap;
 }
 
 div.scollmenu img {
