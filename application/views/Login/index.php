@@ -20,7 +20,8 @@
         <img src="assets\imgs\800px-Brainly_logo.png" width="90" height="40" alt="askly">
     </a>
     <span class="navbar-brand mb-0 h1"></span>
-    <button class="btn btn-dark" style="border-radius: 10px; box-shadow: 1px 1px 10px grey" href="#">nigga</button>
+    <button class="btn btn-dark" style="border-radius: 10px; box-shadow: 1px 1px 10px grey"
+        href="<?= base_url() ?>">Masuk</button>
 </nav>
 <!-- navbar end-->
 <!-- bagian tengah start -->
