@@ -8,9 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="assets\imgs\fav.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets\css\bootstrap.min.css">
-    <link rel="stylesheet" href="assets\css\glider.min.css">
     <link rel="stylesheet" href="assets\css\home.css">
-    <script src="assets\js\home.js"></script>
     <script src="assets\js\bootstrap.min.js"></script>
     <script src="assets\js\jquery.min.js"></script>
     <link href="assets\css\sentuhan.css" rel="stylesheet">
@@ -76,28 +74,20 @@
     </div>
     <!-- bagian tengah end -->
     <!-- slide kategori -->
-    <!-- id change -->
-    <div id="fawesome-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#fawesome-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#fawesome-carousel" data-slide-to="1"></li>
-        </ol>
-
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-
-            </div>
-            <div class="item">
-
+    <div class="d-flex" id="bawah">
+        <div class="container">
+            <div class="scrollmenu">
+                <?php foreach ($kategori as $kat) : ?>
+                <div class="kat-blok">
+                    <img src="..." alt="" style=" ">
+                    <a href="#"><?= $kat ?></a>
+                </div>
+                <?php endforeach; ?>
             </div>
         </div>
-
-        <a class="left slide-control" href="#fawesome-carousel" role="button" data-slide="prev"><i
-                class="fa fa-angle-left"></i></a>
-        <a class="right slide-control" href="#fawesome-carousel" role="button" data-slide="next"><i
-                class="fa fa-angle-right"></i></a>
     </div>
     <!-- end slide kategori -->
+
 </body>
 
 </html>
