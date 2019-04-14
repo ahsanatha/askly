@@ -76,22 +76,28 @@
     </div>
     <!-- bagian tengah end -->
     <!-- slide kategori -->
-    <div class="glider-contain">
-        <div class="glider">
-            <?php foreach($kategori as $kat): ?>
-            <div class="kat-blok">
-                <p><?=$kat?></p>
+    <!-- id change -->
+    <div id="fawesome-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#fawesome-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#fawesome-carousel" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+
             </div>
-            <?php endforeach;?>
+            <div class="item">
+
+            </div>
         </div>
 
-        <button role="button" aria-label="Previous" class="glider-prev">«</button>
-        <button role="button" aria-label="Next" class="glider-next">»</button>
-        <div role="tablist" class="dots"></div>
+        <a class="left slide-control" href="#fawesome-carousel" role="button" data-slide="prev"><i
+                class="fa fa-angle-left"></i></a>
+        <a class="right slide-control" href="#fawesome-carousel" role="button" data-slide="next"><i
+                class="fa fa-angle-right"></i></a>
     </div>
-
     <!-- end slide kategori -->
-    <script src="assets\js\glider.min.js"></script>
 </body>
 
 </html>
