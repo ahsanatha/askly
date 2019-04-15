@@ -33,7 +33,7 @@
                         <a class="nav-link text-dark font-weight-bold" href="<?= base_url() ?>login">MASUK</a>
                     </li>
                     <li class="nav-item ml-5">
-                        <a class="nav-link text-dark font-weight-bold" href="#">DAFTAR</a>
+                        <a class="nav-link text-dark font-weight-bold" href="<?= base_url()?>register">DAFTAR</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 ml-5">
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="scrollmenu">
                 <?php foreach ($kategori as $kat) : ?>
-                <div class="kat-blok">
+                <div class=" kat-blok">
                     <img src="..." alt="" style=" ">
                     <a href="#"><?= $kat ?></a>
                 </div>
