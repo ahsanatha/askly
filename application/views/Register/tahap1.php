@@ -6,28 +6,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?= $title ?></title>
-    <link rel="shortcut icon" type="image/png" href="assets\imgs\fav.ico" />
+    <link rel="shortcut icon" type="image/png" href="<?=base_url()?>assets\imgs\fav.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets\css\bootstrap.min.css">
-    <link rel="stylesheet" href="assets\css\home.css">
-    <script src="assets\js\bootstrap.min.js"></script>
-    <script src="assets\js\jquery.min.js"></script>
-    <link href="assets\css\sentuhan.css" rel="stylesheet">
-    <script>
-    $(document).ready(function() {
-        $('#tahap2').hide();
-        $('#tahap3').hide();
-        $("#btnEmail").click(function() {
-            $('#tahap1').hide();
-            $('#tahap2').show();
-        });
-        $('#btnLanjut').click(function() {
-            $('#tahap2').hide();
-            $('#tahap3').show();
-        });
+    <link rel="stylesheet" href="<?=base_url()?>assets\css\bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets\css\home.css">
+    <script src="<?=base_url()?>assets\js\bootstrap.min.js"></script>
+    <script src="<?=base_url()?>assets\js\jquery.min.js"></script>
+    <link href="<?=base_url()?>assets\css\sentuhan.css" rel="stylesheet">
 
-    });
-    </script>
 
 </head>
 <!-- navbar start-->
@@ -96,7 +82,7 @@
                                     </div>
                                     <div class="sg-text sg-text--small sg-text--gray sg-text--to-left">Agan telah
                                         memiliki
-                                        akun? <span data-test="form-login-link"
+                                        akun? <span
                                             class="sg-text sg-text--small sg-text--link sg-text--bold sg-text--blue-dark">Masuk
                                             di sini</span></div>
                                 </div>
@@ -121,7 +107,7 @@
                                     </div>
                                     <div class="sg-text sg-text--small sg-text--gray sg-text--to-left">Agan telah
                                         memiliki
-                                        akun? <span data-test="form-login-link"
+                                        akun? <span
                                             class="sg-text sg-text--small sg-text--link sg-text--bold sg-text--blue-dark">Masuk
                                             di sini</span></div>
                                 </div>
