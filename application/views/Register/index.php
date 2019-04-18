@@ -28,7 +28,7 @@
 <!-- navbar start-->
 <nav class="navbar navbar-light" style="background-color: #3399ff;  box-shadow: 1px 1px 10px grey;">
     <a class="navbar-brand" href="#">
-        <img src="assets\imgs\800px-Brainly_logo.png" width="90" height="40" alt="askly">
+        <img src="<?=base_url()?>assets\imgs\800px-Brainly_logo.png" width="90" height="40" alt="askly">
     </a>
     <span class="navbar-brand mb-0 h1"></span>
     <button class="btn btn-dark" style="border-radius: 10px; box-shadow: 1px 1px 10px grey" href="#">login</button>
@@ -395,15 +395,15 @@
                                             <div class="sg-select__icon"></div>
                                             <select class="sg-select__element" name="month" id="month">
                                                 <option value="0">Bulan</option>
-                                                <option value="01">Januari</option>
-                                                <option value="02">Februari</option>
-                                                <option value="03">Maret</option>
-                                                <option value="04">April</option>
-                                                <option value="05">Mei</option>
-                                                <option value="06">Juni</option>
-                                                <option value="07">Juli</option>
-                                                <option value="08">Agustus</option>
-                                                <option value="09">September</option>
+                                                <option value="1">Januari</option>
+                                                <option value="2">Februari</option>
+                                                <option value="3">Maret</option>
+                                                <option value="4">April</option>
+                                                <option value="5">Mei</option>
+                                                <option value="6">Juni</option>
+                                                <option value="7">Juli</option>
+                                                <option value="8">Agustus</option>
+                                                <option value="9">September</option>
                                                 <option value="10">Oktober</option>
                                                 <option value="11">November</option>
                                                 <option value="12">Desember</option>
@@ -415,15 +415,15 @@
                                             <div class="sg-select__icon"></div><select class="sg-select__element"
                                                 name="day" id="day">
                                                 <option value="0">Hari</option>
-                                                <option value="01">1</option>
-                                                <option value="02">2</option>
-                                                <option value="03">3</option>
-                                                <option value="04">4</option>
-                                                <option value="05">5</option>
-                                                <option value="06">6</option>
-                                                <option value="07">7</option>
-                                                <option value="08">8</option>
-                                                <option value="09">9</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
                                                 <option value="10">10</option>
                                                 <option value="11">11</option>
                                                 <option value="12">12</option>
