@@ -5,8 +5,12 @@ class Register extends CI_Controller
     public function index()
     {
         $this->load->view('Register/index');
-        $email = $this->input->post('username');
-        $nick = $this->input->post('nick');
-        
     }
+    public function addUser(){
+        $email = $this->input->post("username");
+        
+        echo 'keluar nih';
+        // $this->load->model('User');
+    }
+
 }
