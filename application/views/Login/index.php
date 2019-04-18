@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                         </div>
-                        <form>
+                        <form action="<?=base_url()?>login/doLogin" method="post">
                             <div class="sg-content-box__content sg-content-box__content--spaced-bottom">
                                 <input type="text" class="sg-input sg-input--full-width"
                                     placeholder="Nama panggilan atau email " name="username" value="">
