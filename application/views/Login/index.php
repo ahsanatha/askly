@@ -16,12 +16,14 @@
 </head>
 <!-- navbar start-->
 <nav class="navbar navbar-light" style="background-color: #3399ff;  box-shadow: 1px 1px 10px grey;">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?=base_url()?>">
         <img src="assets\imgs\800px-Brainly_logo.png" width="90" height="40" alt="askly">
     </a>
     <span class="navbar-brand mb-0 h1"></span>
+    <a href="<?= base_url() ?>register">
     <button class="btn btn-dark" style="border-radius: 10px; box-shadow: 1px 1px 10px grey"
-        href="<?= base_url() ?>">Masuk</button>
+        >Register</button>
+    </a>
 </nav>
 <!-- navbar end-->
 <!-- bagian tengah start -->
