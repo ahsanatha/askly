@@ -15,6 +15,10 @@
     <script>
     $(document).ready(function() {
         $('.js-hidden').hide();
+        $('#btnProfile').click(function() {
+            $('#menuProfile').toggle();
+        });
+
     });
     </script>
     <style>
@@ -192,7 +196,8 @@
             </div>
             <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing sg-actions-list__hole--container">
                 <div class="user-box js-logged-user-box">
-                    <div class="user-box__button js-panel-button" role="button" tabindex="0" aria-label="Lihat profil">
+                    <div id="btnProfile" class="user-box__button js-panel-button" role="button" tabindex="0"
+                        aria-label="Lihat profil">
                         <div class="sg-icon-as-button sg-icon-as-button--transparent js-panel-button-icon">
                             <div class="sg-icon-as-button__hole">
                                 <div class="sg-avatar sg-avatar--small  "><img class="sg-avatar__image"
@@ -201,7 +206,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sg-bubble sg-bubble--top sg-bubble--row-end user-box__menu js-panel-content js-hidden">
+                    <div id="menuProfile"
+                        class="sg-bubble sg-bubble--top sg-bubble--row-end user-box__menu js-panel-content js-hidden"
+                        style="position:absolute; right:-16px">
                         <ul class="sg-menu-list">
                             <li class="sg-menu-list__element"><a class="sg-menu-list__link" href="/users/view">
                                     Lihat profil

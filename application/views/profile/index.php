@@ -205,7 +205,8 @@
                             <li class="sg-menu-list__element"><a class="sg-menu-list__link" href="/users/profile">
                                     Edit profil
                                 </a></li>
-                            <li class="sg-menu-list__element"><a class="sg-menu-list__link" href="/logout">
+                            <li class="sg-menu-list__element"><a class="sg-menu-list__link"
+                                    href="<?=base_url()?>/logout">
                                     Keluar
                                 </a></li>
                         </ul>

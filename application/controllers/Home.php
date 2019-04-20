@@ -14,10 +14,13 @@ class Home extends CI_Controller
             "B. Jepang", "B. Mandarin", "B.Perancis"
         );
         if (isset($_SESSION['idUser'])){
-            $this->load->view('Home-logged/index');
+            $this->load->view('Home-logged/index',$data);
         }else{
             $this->load->view('Home/index', $data);
         }
+        
+    }
+    public function logout(){
         
     }
 

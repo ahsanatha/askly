@@ -32,7 +32,7 @@
     </a>
     <span class="navbar-brand mb-0 h1"></span>
     <a href="<?=base_url()?>login">
-    <button class="btn btn-dark" style="border-radius: 10px; box-shadow: 1px 1px 10px grey">Login</button>
+        <button class="btn btn-dark" style="border-radius: 10px; box-shadow: 1px 1px 10px grey">Login</button>
     </a>
 </nav>
 <!-- navbar end-->
