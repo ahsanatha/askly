@@ -41,15 +41,15 @@
     <div class="sg-header__right">
         <nav class="sg-actions-list sg-actions-list--no-wrap">
             <div class="sg-actions-list__hole sg-actions-list__hole--container">
-                <div class="js-messages-box"><button aria-label="Pesan"
+                <div class="js-messages-box"><button aria-label="Pesan" id="btnPesan"
                         class="sg-icon-as-button js-panel-button js-panel-button-icon sg-icon-as-button--light sg-icon-as-button--transparent">
                         <div class="sg-icon-as-button__hole">
                             <div class="sg-overlayed-box">
-                                <img src="assets\imgs\speech-bubble.svg" alt="pesan" width="28" height="32">
+                                <img src="assets\imgs\speech-bubble.svg" alt="pesan" width="28">
                             </div>
                         </div>
                     </button>
-                    <div
+                    <div id="pesan"
                         class="brn-menu-panel brn-menu-panel--spaced-top brn-menu-panel--restrict-height js-panel-content js-hidden">
                         <div class="sg-bubble sg-bubble--full sg-bubble--top sg-bubble--row-end">
                             <div class="sg-content-box dock-box">
@@ -82,7 +82,7 @@
                         class="sg-icon-as-button js-panel-button js-panel-button-icon sg-icon-as-button--light sg-icon-as-button--transparent">
                         <div class="sg-icon-as-button__hole">
                             <div class="sg-overlayed-box">
-                                <img src="assets\imgs\notification.svg" alt="pesan" width="28" height="32">
+                                <img src="assets\imgs\notification.svg" alt="pesan" width="22">
                             </div>
                         </div>
                     </button>
@@ -125,9 +125,8 @@
                 <div class="js-community-box"><button aria-label="Undangan"
                         class="sg-icon-as-button js-panel-button js-panel-button-icon sg-icon-as-button--light sg-icon-as-button--transparent">
                         <div class="sg-icon-as-button__hole">
-                            <div class="sg-overlayed-box"><svg class="sg-icon sg-icon--x24 sg-icon--adaptive">
-                                    <use xlink:href="#icon-friends"></use>
-                                </svg>
+                            <div class="sg-overlayed-box">
+                                <img src="assets\imgs\friends.svg" alt="friend" width="25">
                             </div>
                         </div>
                     </button>
