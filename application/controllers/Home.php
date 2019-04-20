@@ -4,6 +4,7 @@ class Home extends CI_Controller
 {
     public function index()
     {
+        $this->load->model('User');
         $data["title"] = "Askly";
         $data["kategori"] = array(
             "Semua", "SBMPTN", "Ujian Nasional", "Matematika",
@@ -20,8 +21,6 @@ class Home extends CI_Controller
         }
         
     }
-    public function logout(){
-        
-    }
+
 
 }

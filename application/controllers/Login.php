@@ -16,7 +16,6 @@ class Login extends CI_Controller
             $this->db->from('user');
             $this->db->where('nama', $this->input->post('username'));
             $query = $this->db->get()->row_array();
-            // $_SESSION['']
             $_SESSION['idUser'] =  $query['idUser'];
             echo "login success" . $_SESSION['idUser'];
             redirect(base_url());
