@@ -13,7 +13,12 @@ class Home extends CI_Controller
             "Sosiologi", "Bahasa Lain", "Wirausaha", "Akuntansi",
             "B. Jepang", "B. Mandarin", "B.Perancis"
         );
-        $this->load->view('Home/index', $data);
+        if (isset($_SESSION['idUser'])){
+            $this->load->view('Home-logged/index');
+        }else{
+            $this->load->view('Home/index', $data);
+        }
+        
     }
 
 }

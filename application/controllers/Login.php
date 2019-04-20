@@ -12,7 +12,13 @@ class Login extends CI_Controller
         $this->db->where('password', $this->input->post('password'));
         $res = $this->db->get('user');
         if($res->num_rows() > 0){
-            echo "login success";
+            $this->db->select('idUser');
+            $this->db->from('user');
+            $this->db->where('nama', $this->input->post('username'));
+            $query = $this->db->get()->row_array();
+            $_SESSION['idUser'] =  $query['idUser'];
+            echo "login success" . $_SESSION['idUser'];
+            redirect(base_url());
         }else{
             echo "login failed";
         }
