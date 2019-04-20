@@ -15,6 +15,8 @@ class Home extends CI_Controller
             "B. Jepang", "B. Mandarin", "B.Perancis"
         );
         if (isset($_SESSION['idUser'])){
+            $data['user'] = $this->User->getUser($_SESSION['idUser']);
+            $this->load->view('template/header-logged',$data);
             $this->load->view('Home-logged/index',$data);
         }else{
             $this->load->view('Home/index', $data);
