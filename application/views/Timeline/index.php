@@ -13,16 +13,7 @@
     <script src="<?=base_url()?>assets\js\bootstrap.min.js"></script>
     <script src="<?=base_url()?>assets\js\jquery.min.js"></script>
     <link href="<?=base_url()?>assets\css\sentuhan.css" rel="stylesheet">
-    <script>
-    $(document).ready(function() {
-        $('#tahap2').hide();
-        $('#tahap3').hide();
-        $("#btnEmail").click(function() {
-            $('#tahap1').hide();
-            $('#tahap3').show();
-        });
-    });
-    </script>
+    
 
 
 
