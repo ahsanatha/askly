@@ -29,7 +29,7 @@
 </head>
 <!-- navbar start-->
 <nav class="navbar navbar-light" style="background-color: #4fb3f6;  box-shadow: 1px 1px 10px grey;">
-    <div class="sg-header__left"><a href="/" class="sg-home-button"
+    <div class="sg-header__left"><a href="<?=base_url()?>" class="sg-home-button"
             title="Brainly.co.id - Jaringan Pembelajaran Sosial"><img class="sg-home-button__logo-small"
                 src="https://styleguide.brainly.co.id/images/logos/brainly-mobile-426ef8718f.svg"
                 alt="Brainly.co.id"><img class="sg-home-button__logo-big"
@@ -201,7 +201,7 @@
                         <div class="sg-icon-as-button sg-icon-as-button--transparent js-panel-button-icon">
                             <div class="sg-icon-as-button__hole">
                                 <div class="sg-avatar sg-avatar--small  "><img class="sg-avatar__image"
-                                        src="assets\imgs\avatar\user.svg" alt="<?= $user['nama']?>"
+                                        src="<?=base_url()?>assets\imgs\avatar\<?=$avatar?>" alt="<?= $user['nama']?>"
                                         title="<?= $user['nama']?>"></div>
                             </div>
                         </div>
