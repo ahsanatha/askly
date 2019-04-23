@@ -12,7 +12,7 @@ class Users extends CI_Controller{
         $data["avatar"] = $this->User->getAvatar($_SESSION['idUser']);
         $data["userr"] = $this->User->getAllUser()->result();
         $data["countAllUser"] = $this->User->getAllUser()->num_rows();
-        print_r($data['user']['password']);
+        //print_r($data['user']['password']);
         $this->load->view('template/header-logged',$data);
         $this->load->view('profile/index',$data);
     }

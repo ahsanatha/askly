@@ -38,7 +38,7 @@ class Question extends CI_Controller{
             $data["title"] = "Askly";
             $data["user"] = $this->User->getUser($_SESSION['idUser']);
             $data["avatar"] = $this->User->getAvatar($_SESSION['idUser']);
-            $data['pertanyaan'] = $this->M_Question->getQuestion($_GET['idTanya'])->row_array();
+            $data['pertanyaan'] = $this->M_Question->getQuestion($_GET['idtanya'])->row_array();
             $this->load->view('template/header-logged',$data);
             $this->load->view('question/edit',$data);
         }else{
