@@ -9,7 +9,6 @@ class Question extends CI_Controller{
     public function index(){
         $data["title"] = "Askly";
         $data["user"] = $this->User->getUser($_SESSION['idUser']);
-        $data["umur"] = $this->User->getUmur($data['user']['tanggalLahir']);
         $data["avatar"] = $this->User->getAvatar($_SESSION['idUser']);
         $this->load->view('template/header-logged',$data);
         $this->load->view('question/index',$data);

@@ -199,7 +199,8 @@
                                                     class="sg-actions-list sg-actions-list--to-top sg-actions-list--no-wrap">
                                                     <div
                                                         class="sg-actions-list__hole sg-actions-list__hole--hide-overflow">
-                                                        <a data-test="feed-item-link" href="/question/12524274"
+                                                        <a data-test="feed-item-link"
+                                                            href="<?=base_url()?>question/<?=$q->idTanya?>"
                                                             class="sg-text sg-text--link-unstyled sg-text--bold">
                                                             <p class="sg-text sg-text--break-words">
                                                                 <!-- String pertanyaan-->
@@ -209,45 +210,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="sg-content-box__content sg-content-box__content--spaced-top">
-                                                <div class="sg-actions-list">
-                                                    <div
-                                                        class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
-                                                        <div class="brn-answers-list">
-                                                            <div class="brn-answers-list__icon">
-                                                                <div class="sg-icon sg-icon--light sg-icon--x14">
-                                                                    <svg class="sg-icon__svg">
-                                                                        <use xlink:href="#icon-answered">
-                                                                        </use>
-                                                                    </svg>
-                                                                </div>
-                                                            </div>
-                                                            <div class="brn-answers-list__item">
-                                                            </div>
-                                                            <div class="brn-answers-list__dot-container">
-                                                                <div class="brn-answers-list__dot">
-                                                                </div>
-                                                                <div class="brn-answers-list__dot">
-                                                                </div>
-                                                                <div class="brn-answers-list__dot">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
-                                                </div>
-                                                <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
-                                                    <div class="brn-presence-list">
-                                                        <div class="brn-presence-list__icon">
-                                                        </div>
-                                                        <div class="brn-presence-list__item">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
-                                        <div class="sg-actions-list__hole sg-actions-list__hole--to-right">
+                                        <div class="sg-actions-list__hole mt-3">
                                             <!-- tombol jawab-->
                                             <a href="#"
                                                 class="sg-button-secondary sg-button-secondary--small sg-button-secondary--inverse">Answer</a>
