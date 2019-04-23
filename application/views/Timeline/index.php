@@ -63,7 +63,7 @@
                                             need to know?</h1>
                                     </div>
                                     <div class="sg-content-box__content sg-content-box__content--spaced-bottom-xlarge">
-                                        <a href="<?=base_url()?>/question/"
+                                        <a href="<?=base_url()?>question/"
                                             class="sg-button-primary sg-button-primary--alt">Ask your
                                             question</a>
                                     </div>

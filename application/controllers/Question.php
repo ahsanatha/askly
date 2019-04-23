@@ -12,7 +12,7 @@ class Question extends CI_Controller{
         $data["umur"] = $this->User->getUmur($data['user']['tanggalLahir']);
         $data["avatar"] = $this->User->getAvatar($_SESSION['idUser']);
         $this->load->view('template/header-logged',$data);
-        $this->load->view('add/index',$data);
+        $this->load->view('question/index',$data);
     }
     public function add(){
         $data = array(
