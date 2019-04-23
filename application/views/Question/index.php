@@ -14,7 +14,7 @@
                             <div class="sg-content-box__content sg-content-box__content--spaced-bottom-large">
                                 <div class="brn-editor__container">
                                     <textarea
-                                        class="brn-editor__instance sg-textarea sg-textarea--full-width sg-textarea--xtall js-ask-textarea "
+                                        class="brn-editor__instance sg-textarea sg-textarea--full-width sg-textarea--xtall "
                                         name="pertanyaan" placeholder="">
 						</textarea>
                                 </div>

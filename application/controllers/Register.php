@@ -20,7 +20,7 @@ class Register extends CI_Controller
             'poin' => 0,
             'tingkat' => $tingkat,
             'negara' => $this->input->post("country"),
-            'tanggalLahir' => $ultah
+            'tanggalLahir' => $ultah,
         );
         $this->db->insert('user', $data);
         redirect(base_url());

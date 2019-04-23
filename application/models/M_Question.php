@@ -6,6 +6,7 @@ class M_Question extends CI_Model{
         $this->db->insert('tanya', $data);
     }
     public function getAllQuestion(){
+        $this->db->join('user', 'user.idUser = tanya.idUser');
         return $this->db->get('tanya');
     }
 

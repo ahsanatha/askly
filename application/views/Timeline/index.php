@@ -157,15 +157,16 @@
                                             <div class="sg-content-box__title sg-content-box__title--spaced-bottom">
                                                 <div class="sg-avatar sg-avatar--normal sg-avatar--spaced">
                                                     <!-- link ke profile user lewat klik gambar-->
-                                                    <a href="#">
+                                                    <a href="<?=base_url()?>users/profile/<?=$q->idUser?>">
                                                         <!-- ava user untuk tiap pos, kasih default aja dulu aja semua avanya-->
-                                                        <img class="sg-avatar__image" src="/askly/assets/imgs/haha.jpg">
+                                                        <img class="sg-avatar__image"
+                                                            src="<?=base_url()?>assets/imgs/avatar/<?=$q->avatar?>">
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="sg-actions-list__hole sg-actions-list__hole--grow">
+                                    <div class=" sg-actions-list__hole sg-actions-list__hole--grow">
                                         <div class="sg-content-box">
                                             <div class="sg-content-box__title sg-content-box__title--spaced-bottom">
                                                 <div class="sg-actions-list sg-actions-list--no-wrap">
@@ -184,7 +185,8 @@
                                                                     <li class="sg-breadcrumb-list__element">
                                                                         <!-- jadiin tanggal aja -->
                                                                         <span
-                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold"><?=$q->tanggal?></span>
+                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold"><?=$q->tanggal?>
+                                                                        </span>
                                                                     </li>
                                                                 </ul>
                                                             </div>
