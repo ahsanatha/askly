@@ -63,8 +63,9 @@
                                             need to know?</h1>
                                     </div>
                                     <div class="sg-content-box__content sg-content-box__content--spaced-bottom-xlarge">
-                                        <a href="/question/add?entry=1610"
-                                            class="sg-button-primary sg-button-primary--alt">Ask your question</a>
+                                        <a href="<?=base_url()?>/question/"
+                                            class="sg-button-primary sg-button-primary--alt">Ask your
+                                            question</a>
                                     </div>
                                 </div>
                             </div>
@@ -147,6 +148,7 @@
                         </div>
 
                         <!-- loop php grab data element ini-->
+                        <?php foreach ($questions as $q){ ?>
                         <div class="sg-box sg-box--no-border sg-box--full">
                             <div class="sg-box__hole">
                                 <div class="sg-actions-list sg-actions-list--to-top sg-actions-list--no-wrap">
@@ -176,14 +178,13 @@
                                                                         <span
                                                                             class="sg-text sg-text--small sg-text--gray sg-text--bold">
                                                                             <span
-                                                                                class="sg-text sg-text--small sg-text--link sg-text--bold sg-text--gray">Biology</span>
+                                                                                class="sg-text sg-text--small sg-text--link sg-text--bold sg-text--gray"><?=$q->mapel?></span>
                                                                         </span>
                                                                     </li>
                                                                     <li class="sg-breadcrumb-list__element">
                                                                         <!-- jadiin tanggal aja -->
                                                                         <span
-                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold">5
-                                                                            minutes ago</span>
+                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold"><?=$q->tanggal?></span>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -200,7 +201,7 @@
                                                             class="sg-text sg-text--link-unstyled sg-text--bold">
                                                             <p class="sg-text sg-text--break-words">
                                                                 <!-- String pertanyaan-->
-                                                                <span>Pertanyaan </span>
+                                                                <span><?= $q->pertanyaan ?></span>
                                                             </p>
                                                         </a>
                                                     </div>
@@ -253,6 +254,7 @@
                                 </div>
                             </div>
                         </div>
+                        <?php } ?>
                     </div>
                 </div>
             </div>

@@ -33,8 +33,8 @@
                 <div class="col-md-4">
                     <h5>UCAPAN TERIMA KASIH (<?=$countAllUser?>)</h5>
                     <?php foreach ($userr as $uInfo) { ?>
-                    <img alt="<?=$uInfo->nama?>" src="<?=base_url()?>assets\imgs\avatar\user.svg" width="42"
-                        class="rounded-circle" />
+                    <img alt="<?=$uInfo->nama?>" title="<?=$uInfo->nama?>"
+                        src="<?=base_url()?>assets\imgs\avatar\user.svg" width="42" class="rounded-circle" />
                     <?php } ?>
                 </div>
             </div>
