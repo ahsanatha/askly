@@ -3372,7 +3372,7 @@ input[type='search'].sg-search__input {
 }
 
 .sg-breadcrumb-list__element::after {
-	content: 'Â·';
+	
 	display: inline-block;
 	color: #323c45;
 	padding: 0 2px

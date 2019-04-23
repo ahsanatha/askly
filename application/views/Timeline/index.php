@@ -3,26 +3,20 @@
 
 <head>
     <title>Dashboard</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?= $title ?></title>
-    <link rel="shortcut icon" type="image/png" href="<?=base_url()?>assets\imgs\fav.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="<?=base_url()?>assets\css\bootstrap.min.css">
-    <link rel="stylesheet" href="<?=base_url()?>assets\css\home.css">
-    <script src="<?=base_url()?>assets\js\bootstrap.min.js"></script>
-    <script src="<?=base_url()?>assets\js\jquery.min.js"></script>
-    <link href="<?=base_url()?>assets\css\sentuhan.css" rel="stylesheet">
-    <script>
-    $(document).ready(function() {
-        $('#tahap2').hide();
-        $('#tahap3').hide();
-        $("#btnEmail").click(function() {
-            $('#tahap1').hide();
-            $('#tahap3').show();
-        });
-    });
-    </script>
+    <meat charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title><?= $title ?></title>
+        <link rel="shortcut icon" type="image/png" href="<?=base_url()?>assets\imgs\fav.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="<?=base_url()?>assets\css\bootstrap.min.css">
+        <link rel="stylesheet" href="<?=base_url()?>assets\css\home.css">
+        <script src="<?=base_url()?>assets\js\bootstrap.min.js"></script>
+        <script src="<?=base_url()?>assets\js\jquery.min.js"></script>
+        <link href="<?=base_url()?>assets\css\sentuhan.css" rel="stylesheet">
+
+
+
+
 
 </head>
 <!-- bagian tengah start -->
@@ -149,5 +143,129 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- loop php grab data element ini-->
+            <div class="sg-box sg-box--no-border sg-box--full">
+                <div class="sg-box__hole">
+                    <div class="sg-actions-list sg-actions-list--to-top sg-actions-list--no-wrap">
+                        <div class="sg-actions-list__hole">
+                            <div class="sg-content-box">
+                                <div class="sg-content-box__title sg-content-box__title--spaced-bottom">
+                                    <div class="sg-avatar sg-avatar--normal sg-avatar--spaced">
+                                        <!-- link ke profile user lewat klik gambar-->
+                                        <a href="#">
+                                            <!-- ava user untuk tiap pos, kasih default aja dulu aja semua avanya-->
+                                            <img class="sg-avatar__image" src="/askly/assets/imgs/haha.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sg-actions-list__hole sg-actions-list__hole--grow">
+                            <div class="sg-content-box">
+                                <div class="sg-content-box__title sg-content-box__title--spaced-bottom">
+                                    <div class="sg-actions-list sg-actions-list--no-wrap">
+                                        <div class="sg-content-box">
+                                            <div class="sg-actions-list__hole">
+                                                <div class="sg-content-box__content">
+                                                    <ul class="sg-breadcrumb-list sg-breadcrumb-list--short">
+                                                        <li class="sg-breadcrumb-list__element">
+                                                            <span
+                                                                class="sg-text sg-text--small sg-text--gray sg-text--bold">
+                                                                <span
+                                                                    class="sg-text sg-text--small sg-text--link sg-text--bold sg-text--gray">Biology</span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="sg-breadcrumb-list__element">
+                                                            <!-- jadiin tanggal aja -->
+                                                            <span
+                                                                class="sg-text sg-text--small sg-text--gray sg-text--bold">5
+                                                                minutes ago</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sg-content-box__content sg-content-box__content--full">
+                                    <div class="sg-actions-list sg-actions-list--to-top sg-actions-list--no-wrap">
+                                        <div class="sg-actions-list__hole sg-actions-list__hole--hide-overflow">
+                                            <a data-test="feed-item-link" href="/question/12524274"
+                                                class="sg-text sg-text--link-unstyled sg-text--bold">
+                                                <p class="sg-text sg-text--break-words">
+                                                    <!-- String pertanyaan-->
+                                                    <span>Pertanyaan </span>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sg-content-box__content sg-content-box__content--spaced-top">
+                                    <div class="sg-actions-list">
+                                        <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
+                                            <div class="brn-answers-list">
+                                                <div class="brn-answers-list__icon">
+                                                    <div class="sg-icon sg-icon--light sg-icon--x14">
+                                                        <svg class="sg-icon__svg">
+                                                            <use xlink:href="#icon-answered">
+
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="brn-answers-list__item">
+
+                                                </div>
+                                                <div class="brn-answers-list__dot-container">
+                                                    <div class="brn-answers-list__dot">
+
+                                                    </div>
+                                                    <div class="brn-answers-list__dot">
+
+                                                    </div>
+                                                    <div class="brn-answers-list__dot">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
+
+                                    </div>
+                                    <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
+                                        <div class="brn-presence-list">
+                                            <div class="brn-presence-list__icon">
+
+                                            </div>
+                                            <div class="brn-presence-list__item">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sg-actions-list__hole sg-actions-list__hole--to-right">
+                                <!-- tombol jawab-->
+                                <a href="#"
+                                    class="sg-button-secondary sg-button-secondary--small sg-button-secondary--inverse">Answer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+
+
+    </div>
+
 
 </body>
