@@ -185,7 +185,8 @@
                                                                     <li class="sg-breadcrumb-list__element">
                                                                         <!-- jadiin tanggal aja -->
                                                                         <span
-                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold"><?=$q->tanggal?>
+                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold">-
+                                                                            <?=$q->tanggal?>
                                                                         </span>
                                                                     </li>
                                                                 </ul>
@@ -200,7 +201,7 @@
                                                     <div
                                                         class="sg-actions-list__hole sg-actions-list__hole--hide-overflow">
                                                         <a data-test="feed-item-link"
-                                                            href="<?=base_url()?>question/<?=$q->idTanya?>"
+                                                            href="<?=base_url()?>answer?idtanya=<?=$q->idTanya?>"
                                                             class="sg-text sg-text--link-unstyled sg-text--bold">
                                                             <p class="sg-text sg-text--break-words">
                                                                 <!-- String pertanyaan-->
@@ -213,7 +214,7 @@
                                         </div>
                                         <div class="sg-actions-list__hole mt-3">
                                             <!-- tombol jawab-->
-                                            <a href="#"
+                                            <a href="<?=base_url()?>answer?idtanya=<?=$q->idTanya?>"
                                                 class="sg-button-secondary sg-button-secondary--small sg-button-secondary--inverse">Answer</a>
                                         </div>
                                     </div>

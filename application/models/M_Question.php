@@ -19,5 +19,18 @@ class M_Question extends CI_Model{
         );
         $this->db->update('user', $data);
     }
+    public function getQuestion($id){
+        $this->db->where('idTanya',$id);
+        $this->db->join('user', 'user.idUser = tanya.idUser');
+        return $this->db->get('tanya');
+    }
+    public function hapusQ($id){
+        $this->db->where('idtanya', $id);
+        $this->db->delete('tanya');
+    }
+    public function updateUser($id,$data){    
+        $this->db->where('idtanya', $id);
+        $this->db->update('tanya', $data);
+    }
 
 }
