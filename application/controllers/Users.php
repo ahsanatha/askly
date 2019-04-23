@@ -9,10 +9,7 @@ class Users extends CI_Controller{
         $data["title"] = "Askly";
         $data["user"] = $this->User->getUser($_SESSION['idUser']);
         $data["umur"] = $this->User->getUmur($data['user']['tanggalLahir']);
-        $data["avatar"] = $this->User->getAvatar($_SESSION['idUser'])['avatar'];
-        if($data["avatar"] == NULL){
-            $data["avatar"] = "user.svg";
-        }
+        $data["avatar"] = $this->User->getAvatar($_SESSION['idUser']);
         $data["userr"] = $this->User->getAllUser()->result();
         $data["countAllUser"] = $this->User->getAllUser()->num_rows();
         $this->load->view('template/header-logged',$data);

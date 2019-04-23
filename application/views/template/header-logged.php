@@ -95,39 +95,6 @@
                             </div>
                         </div>
                     </button>
-                    <div
-                        class="brn-menu-panel brn-menu-panel--spaced-top brn-menu-panel--restrict-height js-panel-content js-hidden">
-                        <div class="sg-bubble sg-bubble--full sg-bubble--top sg-bubble--row-end">
-                            <div class="sg-content-box dock-box dock-box--top-only">
-                                <div class="sg-content-box__header dock-box__top">
-                                    <h2 class="sg-headline sg-headline--small">
-                                        Notifikasi
-                                    </h2>
-                                </div>
-                                <div class="sg-content-box__content sg-content-box__content--full">
-                                    <div class="sliding-panel js-sliding-panel">
-                                        <div class="sliding-panel__wrapper">
-                                            <div class="sliding-panel__element">
-                                                <div class="brn-menu-panel__scrollable js-scrollable-container">
-                                                    <ul class="sg-list sg-list--spaced-elements js-items-container">
-                                                        <li class="js-loading sg-text">loading...</li>
-                                                    </ul>
-                                                    <div
-                                                        class="js-empty-box js-hidden brn-menu-panel__empty-message sg-text sg-text--gray">
-                                                        Tanpa notifikasi</div>
-                                                </div>
-                                            </div>
-                                            <div class="sliding-panel__element">
-                                                <div class="brn-menu-panel__scrollable">
-                                                    <div class="js-notification-details-container"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="sg-actions-list__hole sg-actions-list__hole--container">
@@ -139,59 +106,7 @@
                             </div>
                         </div>
                     </button>
-                    <div class="brn-menu-panel brn-menu-panel--spaced-top js-panel-content js-hidden">
-                        <div class="sg-bubble sg-bubble--top sg-bubble--row-end">
-                            <div class="js-invitations js-hidden">
-                                <div class="sg-content-box">
-                                    <div class="sg-content-box__header sg-content-box--spaced">
-                                        <h2 class="sg-headline sg-headline--small">
-                                            Undangan
-                                        </h2>
-                                    </div>
-                                    <div class="sg-content-box__content">
-                                        <div
-                                            class="brn-menu-panel__scrollable brn-menu-panel__scrollable--xshort js-scrollable-container">
-                                            <ul class="sg-list sg-list--spaced-elements js-items-container"></ul>
-                                        </div>
-                                    </div>
-                                    <div class="sg-horizontal-separator sg-horizontal-separator--short-spaced"></div>
-                                </div>
-                            </div>
-                            <div class="js-friends">
-                                <div class="sg-content-box">
-                                    <div class="sg-content-box__title sg-content-box__title--spaced-bottom">
-                                        <div class="sg-actions-list sg-actions-list--space-between">
-                                            <div class="sg-actions-list__hole">
-                                                <h2 class="sg-headline sg-headline--small">Teman</h2>
-                                            </div>
-                                            <div class="sg-actions-list__hole">
-                                                <div class="sg-search js-search-users"><input type="text"
-                                                        placeholder="Cari teman" data-hj-whitelist=""
-                                                        class="js-search-users-input sg-input sg-input--full-width sg-input--with-icon">
-                                                    <div class="sg-search__icon"><svg
-                                                            class="sg-icon sg-icon--blue sg-icon--adaptive sg-icon--x18">
-                                                            <use xlink:href="#icon-search"></use>
-                                                        </svg></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sg-content-box__content">
-                                        <div
-                                            class="brn-menu-panel__scrollable brn-menu-panel__scrollable--short js-scrollable-container">
-                                            <ul class="sg-list sg-list--spaced-elements js-items-container">
-                                                <li class="js-loading sg-text">loading...</li>
-                                            </ul>
-                                            <div
-                                                class="js-empty-box js-hidden brn-menu-panel__empty-message sg-text sg-text--gray">
-                                                Belum ada teman
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing sg-actions-list__hole--container">
@@ -202,7 +117,7 @@
                             <div class="sg-icon-as-button__hole">
                                 <div class="sg-avatar sg-avatar--small  "><img class="sg-avatar__image"
                                         src="<?=base_url()?>assets\imgs\avatar\<?=$avatar?>" alt="<?= $user['nama']?>"
-                                        title="<?= $user['nama']?>"></div>
+                                        title="<?= $user['nama']?>" /></div>
                             </div>
                         </div>
                     </div>

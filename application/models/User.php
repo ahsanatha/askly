@@ -26,8 +26,13 @@ class User extends CI_Model{
     public function getAvatar($id){
         $this->db->select('avatar');
         $this->db->where('idUser',$id);
-        $query = $this->db->get('user');
-        return $query->row_array();
+        $query = $this->db->get('user')->row_array()['avatar'];
+
+        if($query != NULL){
+            return $query;
+        }else{
+            return 'user.svg';
+        };
 
     }
     public function getAllUser(){

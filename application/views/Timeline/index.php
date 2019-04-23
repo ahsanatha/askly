@@ -215,38 +215,30 @@
                                                                 <div class="sg-icon sg-icon--light sg-icon--x14">
                                                                     <svg class="sg-icon__svg">
                                                                         <use xlink:href="#icon-answered">
-
                                                                         </use>
                                                                     </svg>
                                                                 </div>
                                                             </div>
                                                             <div class="brn-answers-list__item">
-
                                                             </div>
                                                             <div class="brn-answers-list__dot-container">
                                                                 <div class="brn-answers-list__dot">
-
                                                                 </div>
                                                                 <div class="brn-answers-list__dot">
-
                                                                 </div>
                                                                 <div class="brn-answers-list__dot">
-
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
-
                                                 </div>
                                                 <div class="sg-actions-list__hole sg-actions-list__hole--no-spacing">
                                                     <div class="brn-presence-list">
                                                         <div class="brn-presence-list__icon">
-
                                                         </div>
                                                         <div class="brn-presence-list__item">
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -265,11 +257,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <br>
-
-
+        <br>
     </div>
 
 
