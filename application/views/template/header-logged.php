@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?= $title ?></title>
-    <link rel="shortcut icon" type="image/png" href="assets\imgs\fav.ico" />
+    <link rel="shortcut icon" type="image/png" href="<?=base_url()?>assets\imgs\fav.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets\css\bootstrap.min.css">
-    <link rel="stylesheet" href="assets\css\home.css">
-    <script src="assets\js\bootstrap.min.js"></script>
-    <script src="assets\js\jquery.min.js"></script>
-    <link href="assets\css\sentuhan.css" rel="stylesheet">
+    <script src="<?=base_url()?>assets\js\jquery.min.js"></script>
+    <script src="<?=base_url()?>assets\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=base_url()?>assets\css\bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets\css\home.css">
+    <link href="<?=base_url()?>assets\css\sentuhan.css" rel="stylesheet">
     <script>
     $(document).ready(function() {
         $('.js-hidden').hide();
@@ -42,7 +42,7 @@
                     class="sg-input sg-input--with-icon sg-search__input sg-input--full-width sg-input--light js-top-search-input"
                     name="q" type="search" placeholder="Apa pertanyaanmu?" data-hj-whitelist="" aria-label="Cari">
                 <div class="sg-search__icon">
-                    <img src="assets\imgs\search.svg" width="18" height="18">
+                    <img src="<?=base_url()?>assets\imgs\search.svg" width="18" height="18">
                 </div>
             </form>
         </div>
@@ -54,7 +54,7 @@
                         class="sg-icon-as-button js-panel-button js-panel-button-icon sg-icon-as-button--light sg-icon-as-button--transparent">
                         <div class="sg-icon-as-button__hole">
                             <div class="sg-overlayed-box">
-                                <img src="assets\imgs\speech-bubble.svg" alt="pesan" width="28">
+                                <img src="<?=base_url()?>assets\imgs\speech-bubble.svg" alt="pesan" width="28">
                             </div>
                         </div>
                     </button>
@@ -91,7 +91,7 @@
                         class="sg-icon-as-button js-panel-button js-panel-button-icon sg-icon-as-button--light sg-icon-as-button--transparent">
                         <div class="sg-icon-as-button__hole">
                             <div class="sg-overlayed-box">
-                                <img src="assets\imgs\notification.svg" alt="pesan" width="22">
+                                <img src="<?=base_url()?>assets\imgs\notification.svg" alt="pesan" width="22">
                             </div>
                         </div>
                     </button>
@@ -102,7 +102,7 @@
                         class="sg-icon-as-button js-panel-button js-panel-button-icon sg-icon-as-button--light sg-icon-as-button--transparent">
                         <div class="sg-icon-as-button__hole">
                             <div class="sg-overlayed-box">
-                                <img src="assets\imgs\friends.svg" alt="friend" width="25">
+                                <img src="<?=base_url()?>assets\imgs\friends.svg" alt="friend" width="25">
                             </div>
                         </div>
                     </button>
@@ -129,7 +129,7 @@
                                     Lihat profil
                                 </a></li>
                             <li class="sg-menu-list__element"><a class="sg-menu-list__link"
-                                    href="<?=base_url()?>users/profile">
+                                    href="<?=base_url()?>users/edit">
                                     Edit profil
                                 </a></li>
                             <li class="sg-menu-list__element"><a class="sg-menu-list__link"
