@@ -150,7 +150,7 @@ Hai! Masih tidak yakin dengan jawabannya?
 Periksa jawaban serupa
 </a></div></div></div></div></div><aside class="sg-layout__aside-content js-aside-content"><div class="js-react-question-add-aside"><div class="sg-box sg-box--full sg-box--small-padding sg-box--no-border sg-hide-for-medium-down"><div class="sg-box__hole"><div class="sg-content-box"><div class="sg-content-box__content sg-content-box__content--spaced-bottom sg-content-box__content--with-centered-text"><h3 class="sg-headline sg-headline--extra-bold sg-hide-for-small-only">
 Masih Belum Yakin?
-</h3></div><div class="sg-content-box__actions sg-content-box__actions--with-centered-elements"><a class="sg-button-primary sg-button-primary--alt js-show-add-question-modal" href="/askly/Question">
+</h3></div><div class="sg-content-box__actions sg-content-box__actions--with-centered-elements"><a class="sg-button-primary sg-button-primary--alt js-show-add-question-modal" href="/askly/Question/add">
 Tanya sekarang
 </a></div></div></div></div></div><div class="brn-add-question-floating-btn sg-hide-for-medium-up js-add-question-floating-btn"><a href="/question/add?entry=1620" class="sg-button-primary-round"><div class="sg-button-primary-round__icon"><svg class="sg-icon sg-icon--x20  "><use xlink:href="#icon-plus"></use></svg></div><span class="sg-button-primary-round__label brn-add-question-floating-btn__label">
 Tanyakan pertanyaanmu
