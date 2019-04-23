@@ -12,6 +12,7 @@ class Users extends CI_Controller{
         $data["avatar"] = $this->User->getAvatar($_SESSION['idUser']);
         $data["userr"] = $this->User->getAllUser()->result();
         $data["countAllUser"] = $this->User->getAllUser()->num_rows();
+        print_r($data['user']['password']);
         $this->load->view('template/header-logged',$data);
         $this->load->view('profile/index',$data);
     }
@@ -38,5 +39,20 @@ class Users extends CI_Controller{
     public function delete(){
         $this->User->deleteUser($_SESSION['idUser']);
         $this->logout();
+    }
+    public function saveEmail(){
+        if($this->User->getUser($_SESSION['idUser'])['password'] == md5($this->input->post('password'))){
+            $data = array(
+                'email' => $this->input->post('email'),
+            );
+
+        }
+    }
+    public function savePassword(){
+        if($this->User->getUser($_SESSION)['password'] == md5($this->input->post('password'))){
+            $data = array(
+                'email' => $this->input->post('email'),
+            );
+        }
     }
 }

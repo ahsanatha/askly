@@ -22,6 +22,7 @@ class Question extends CI_Controller{
             'mapel' =>$this->input->post('subject_id'),
         );
         $this->M_Question->addQuestion($data);
+        $this->M_Question->addPoinUser($_SESSION['idUser'],5);
         redirect(base_url());
     }
     

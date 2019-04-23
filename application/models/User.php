@@ -48,4 +48,5 @@ class User extends CI_Model{
         $this->db->where('idUser', $id);
         $this->db->delete('user');
     }
+    
 }
