@@ -28,7 +28,7 @@
     </style>
 </head>
 <!-- navbar start-->
-<nav class="navbar navbar-light" style="background-color: #4fb3f6;  box-shadow: 1px 1px 10px grey;">
+<nav class="navbar navbar-light fixed-top" style="background-color: #4fb3f6;  box-shadow: 1px 1px 10px grey;">
     <div class="sg-header__left"><a href="<?=base_url()?>" class="sg-home-button"
             title="Brainly.co.id - Jaringan Pembelajaran Sosial"><img class="sg-home-button__logo-small"
                 src="https://styleguide.brainly.co.id/images/logos/brainly-mobile-426ef8718f.svg"
