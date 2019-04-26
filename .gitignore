@@ -17,3 +17,5 @@ application/logs/*
 /vendor/
 db.txt
 Dokumen Tubes Webpro 19 ASKLY .docx
+application/config/database.php
+application/config/database.php
