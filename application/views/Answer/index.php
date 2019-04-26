@@ -86,7 +86,7 @@
                                                 <div class="sg-avatar sg-avatar--small  ">
                                                     <div class="sg-avatar__image sg-avatar__image--icon">
                                                         <img src="<?=base_url()?>assets\imgs\avatar\<?=$avatar?>"
-                                                            alt="<?=$user['nama']?>">
+                                                            alt="<?=$user['nama']?>" title="<?=$user['nama']?>">
                                                     </div>
                                                 </div>
                                             </div>
@@ -208,69 +208,5 @@
 
 
     -</div>
-    <div class="brn-ads-mobile-container brn-ads-mobile-container--large brn-ads-mobile-container--spaced-top">
-        <div class="brn-ads-box js-rtk-ad-unit brn-ads-box--spaced-bottom brn-ads-box--spaced-top js-hidden"
-            data-generic-ad-unit-id="question-pg_rect_below-answer" data-test="question-pg_rect_below-answer"></div>
-    </div>
-    <div class="sg-layout__box">
-        <div class="brn-still-not-sure-promo-box">
-            <div class="sg-content-box sg-content-box--spaced">
-                <div class="sg-content-box__header">
-                    <div class="brn-still-not-sure-promo-box__avatar-wrapper sg-avatar"><img class="sg-avatar__image"
-                            src="//brainly.co.id/app/../app/img/icons/icon_brain_round.png" alt="Mahaguru"></div>
-                    <ul class="sg-breadcrumb-list">
-                        <li class="sg-breadcrumb-list__element"><span
-                                class="sg-text sg-text--small sg-text--bold sg-text--gray">Mahaguru</span></li>
-                        <li class="sg-breadcrumb-list__element"><span
-                                class="sg-text sg-text--small sg-text--bold sg-text--gray">Penolong</span></li>
-                    </ul>
-                </div>
-                <div
-                    class="brn-still-not-sure-promo-box__content-wrapper sg-content-box__content sg-content-box__content--spaced-bottom-large">
-                    <div class="sg-headline sg-headline--xxlarge sg-headline--extra-bold sg-hide-for-small-only">
-                        Hai! Masih tidak yakin dengan jawabannya?
-                    </div>
-                    <div class="sg-headline sg-headline--xxlarge sg-hide-for-medium-up">
-                        Hai! Masih tidak yakin dengan jawabannya?
-                    </div>
-                </div>
-                <div class="sg-content-box__actions"><a href="#"
-                        class="sg-button-primary sg-button-primary--alt js-still-not-sure-box-cta">
-                        Periksa jawaban serupa
-                    </a></div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <aside class="sg-layout__aside-content js-aside-content">
-        <div class="js-react-question-add-aside">
-            <div class="sg-box sg-box--full sg-box--small-padding sg-box--no-border sg-hide-for-medium-down">
-                <div class="sg-box__hole">
-                    <div class="sg-content-box">
-                        <div
-                            class="sg-content-box__content sg-content-box__content--spaced-bottom sg-content-box__content--with-centered-text">
-                            <h3 class="sg-headline sg-headline--extra-bold sg-hide-for-small-only">
-                                Masih Belum Yakin?
-                            </h3>
-                        </div>
-                        <div class="sg-content-box__actions sg-content-box__actions--with-centered-elements"><a
-                                class="sg-button-primary sg-button-primary--alt js-show-add-question-modal"
-                                href="/askly/Question/add">
-                                Tanya sekarang
-                            </a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="brn-add-question-floating-btn sg-hide-for-medium-up js-add-question-floating-btn"><a
-                href="/question/add?entry=1620" class="sg-button-primary-round">
-                <div class="sg-button-primary-round__icon"><svg class="sg-icon sg-icon--x20  ">
-                        <use xlink:href="#icon-plus"></use>
-                    </svg></div><span class="sg-button-primary-round__label brn-add-question-floating-btn__label">
-                    Tanyakan pertanyaanmu
-                </span>
-            </a></div>
-    </aside>
-    </div>
 
 </body>

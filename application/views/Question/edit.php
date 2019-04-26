@@ -6,7 +6,8 @@
             <div class="sg-layout__content">
                 <div class="js-add-question-layout-box sg-layout__box">
                     <div class="sg-content-box js-ask-wrapper brn-editor">
-                        <form class="js-ask-form" action="<?=base_url()?>question/saveEdit" method="POST">
+                        <form class="js-ask-form"
+                            action="<?=base_url()?>question/saveEdit?idtanya=<?=$pertanyaan['idTanya']?>" method="POST">
                             <div class="sg-content-box__content sg-content-box__content--spaced-bottom">
                                 <h2 class="sg-headline sg-headline--small js-toplayer-heading">Edit pertanyaan
                                 </h2>
@@ -15,8 +16,7 @@
                                 <div class="brn-editor__container">
                                     <textarea
                                         class="brn-editor__instance sg-textarea sg-textarea--full-width sg-textarea--xtall "
-                                        name="pertanyaan" placeholder="" value="<?=$pertanyaan['pertanyaan']?>">
-						</textarea>
+                                        name="pertanyaan" value=""><?=$pertanyaan['pertanyaan']?></textarea>
                                 </div>
                             </div>
                             <div class="brn-ask-toplayer__footer">

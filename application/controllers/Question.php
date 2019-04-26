@@ -41,16 +41,15 @@ class Question extends CI_Controller{
             $data['pertanyaan'] = $this->M_Question->getQuestion($_GET['idtanya'])->row_array();
             $this->load->view('template/header-logged',$data);
             $this->load->view('question/edit',$data);
+            //print_r($data['pertanyaan']);
         }else{
             redirect(base_url());
         }
     }
     public function saveEdit(){
         $data = array(
-            'idUser' => $_SESSION['idUser'],
             'tanggal' => date("Y/m/d"),
             'pertanyaan' => $this->input->post('pertanyaan'),
-            'terjawab' => 0,
             'mapel' =>$this->input->post('subject_id'),
         );
         $this->M_Question->editQ($_GET['idtanya'],$data);

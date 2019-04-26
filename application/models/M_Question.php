@@ -28,7 +28,7 @@ class M_Question extends CI_Model{
         $this->db->where('idtanya', $id);
         $this->db->delete('tanya');
     }
-    public function updateUser($id,$data){    
+    public function editQ($id,$data){    
         $this->db->where('idtanya', $id);
         $this->db->update('tanya', $data);
     }
