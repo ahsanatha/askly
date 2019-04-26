@@ -32,5 +32,13 @@ class M_Question extends CI_Model{
         $this->db->where('idtanya', $id);
         $this->db->update('tanya', $data);
     }
+    public function tambahAnswer($data){
+        $this->db->insert('jawab', $data);
+    }
+    public function getAnswer(){
+        $this->db->join('user', 'user.idUser = jawab.idUser');
+        $this->db->join('tanya', 'jawab.idtanya = tanya.idtanya');
+        return $this->db->get('jawab');
+    }
 
 }

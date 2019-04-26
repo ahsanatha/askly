@@ -93,12 +93,11 @@
                                             <div class="sg-actions-list__hole sg-actions-list__hole--grow">
                                                 <!-- form jawaban -->
                                                 <form class="sg-search" method="POST"
-                                                    action="<?=base_url()?>answer/addAnswer">
-                                                    <input type="hidden" name="entry" value="">
+                                                    action="<?=base_url()?>answer/addAnswer?idtanya=<?=$question['idTanya']?>&iduser=<?=$question['idUser']?>">
                                                     <img src="" alt="">
                                                     <input required=""
                                                         class="sg-input sg-search__input sg-input--full-width  js-top-search-input"
-                                                        name="jawaban" type="jawab" placeholder="Apa jawabanmu?"
+                                                        name="jawaban" type="text" placeholder="Apa jawabanmu?"
                                                         data-hj-whitelist="" aria-label="Cari">
                                                 </form>
                                                 <!-- form jawaban end -->
@@ -110,28 +109,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="brn-ads-mobile-container">
-                    <div class="brn-ads-box js-rtk-ad-unit brn-ads-box--spaced-bottom brn-ads-box--spaced-top js-hidden"
-                        data-generic-ad-unit-id="question-pg_rect_in-question" data-test="question-pg_rect_in-question">
-
-                    </div>
-                </div>
-                <div class="brn-ads-box brn-ads-box--rectangle js-hide-when-video-ad-plays">
-                    <div class="brn-ads-box js-rtk-ad-unit  js-hidden"
-                        data-generic-ad-unit-id="question-pg_rect_below-question-left"
-                        data-test="question-pg_rect_below-question-left"></div>
-                    <div class="brn-ads-box js-rtk-ad-unit  js-hidden"
-                        data-generic-ad-unit-id="question-pg_rect_below-question-right"
-                        data-test="question-pg_rect_below-question-right"></div>
-                </div>
-
-
-                -
-            </div>
-            <div class="brn-ads-mobile-container brn-ads-mobile-container--large brn-ads-mobile-container--spaced-top">
-                <div class="brn-ads-box js-rtk-ad-unit brn-ads-box--spaced-bottom brn-ads-box--spaced-top js-hidden"
-                    data-generic-ad-unit-id="question-pg_rect_below-answer" data-test="question-pg_rect_below-answer">
-                </div>
+                <!-- jawaban -->
             </div>
             <div class="sg-layout__box">
                 <div class="brn-still-not-sure-promo-box">

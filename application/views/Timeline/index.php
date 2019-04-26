@@ -189,6 +189,13 @@
                                                                             <?=$q->tanggal?>
                                                                         </span>
                                                                     </li>
+                                                                    <li class="sg-breadcrumb-list__element">
+                                                                        <!-- jadiin tanggal aja -->
+                                                                        <span
+                                                                            class="sg-text sg-text--small sg-text--gray sg-text--bold">-
+                                                                            <?=$q->nama?>
+                                                                        </span>
+                                                                    </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
